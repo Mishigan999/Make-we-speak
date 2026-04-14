@@ -8,9 +8,6 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="space-y-6">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-lime/10 text-lime rounded-full text-sm font-medium">
-              <span className="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
-            </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
               Learn Languages{' '}
