@@ -3,7 +3,7 @@ import { ArrowRight, Play, Users, Globe, Video } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-56 pb-16 lg:pt-48 lg:pb-24 bg-gradient-to-br from-white via-lime-light/30 to-white">
+    <section id="home" className="pt-56 pb-16 lg:pt-36 lg:pb-24 bg-gradient-to-br from-white via-lime-light/30 to-white">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
