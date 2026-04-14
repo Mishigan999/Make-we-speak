@@ -56,7 +56,7 @@ const Header = () => {
             <img 
               src="/images/logo.png" 
               alt="Lingua Link Live" 
-              className="h-12 lg:h-16 w-auto"
+              className="h-40 w-auto"
             />
           </a>
 
