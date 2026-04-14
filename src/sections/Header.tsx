@@ -25,9 +25,8 @@ const Header = () => {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white shadow-md' : 'bg-white/95'
-    }`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-white/95'
+      }`}>
       {/* Top bar */}
       <div className="bg-lime-light border-b border-lime/20">
         <div className="container mx-auto px-4 py-2 flex justify-between items-center">
@@ -53,10 +52,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <img 
-              src="/images/logo.png" 
-              alt="Lingua Link Live" 
-              className="h-40 w-auto"
+            <img
+              src="/images/logo.png"
+              alt="Lingua Link Live"
+              className="h-30 w-auto"
             />
           </a>
 
