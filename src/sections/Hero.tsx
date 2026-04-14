@@ -3,7 +3,7 @@ import { ArrowRight, Play, Users, Globe, Video } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-32 pb-16 lg:pt-40 lg:pb-24 bg-gradient-to-br from-white via-lime-light/30 to-white">
+    <section id="home" className="pt-40 pb-16 lg:pt-48 lg:pb-24 bg-gradient-to-br from-white via-lime-light/30 to-white">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
@@ -12,19 +12,19 @@ const Hero = () => {
               <span className="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
               Real People. Real Languages. Real Time.
             </div>
-            
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
+
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
               Learn Languages{' '}
               <span className="text-lime">Face-to-Face</span>{' '}
               with Native Speakers
             </h1>
-            
+
             <p className="text-lg text-gray-600 max-w-xl">
-              Connect with verified native language instructors from around the world. 
-              Experience personalized, live video lessons that make learning a new language 
+              Connect with verified native language instructors from around the world.
+              Experience personalized, live video lessons that make learning a new language
               natural, engaging, and affordable.
             </p>
-            
+
             <div className="flex flex-wrap gap-4">
               <Button className="bg-lime hover:bg-lime-dark text-white rounded-full px-8 py-6 text-lg">
                 Start Learning Now
@@ -35,7 +35,7 @@ const Hero = () => {
                 Watch Demo
               </Button>
             </div>
-            
+
             {/* Stats */}
             <div className="flex flex-wrap gap-8 pt-6">
               <div className="flex items-center gap-3">
@@ -67,19 +67,19 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Right content - Hero Image */}
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              <img 
-                src="/images/main-hero.png" 
-                alt="Lingua Link Live Platform" 
+              <img
+                src="/images/main-hero.png"
+                alt="Lingua Link Live Platform"
                 className="w-full h-auto"
               />
             </div>
-            
+
             {/* Floating elements */}
-            <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
+            <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
               <div className="w-12 h-12 bg-lime rounded-full flex items-center justify-center">
                 <span className="text-white text-xl">🇪🇸</span>
               </div>
@@ -88,7 +88,7 @@ const Hero = () => {
                 <p className="text-sm text-lime">Live Now</p>
               </div>
             </div>
-            
+
             <div className="absolute -top-4 -right-4 bg-white rounded-2xl shadow-xl p-4">
               <div className="flex items-center gap-2">
                 <div className="flex -space-x-2">
